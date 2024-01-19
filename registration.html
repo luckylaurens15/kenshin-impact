@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration</title>
+  <script src="validation.js" defer></script>
+  <link rel="stylesheet" href="styleRegis.css">
+</head>
+<body>
+
+  <nav class="navbar">
+        <div class="dropdown">
+            <button class="menu">Menu</button>
+            <div class="list">
+                <a href="./home.html">Home</a>
+                <a href="./character.html">Characters</a>
+                <a href="./aboutgame.html">About Game</a>
+                <a href="./gallery.html">Gallery</a>
+                <a href="./registration.html">Register</a>
+            </div>
+        </div>
+        <div class="title">
+          <p>Registration</p>
+          <img src="./images/TulisanKenshin.png" alt="" srcset="">
+      </div>
+    </nav>
+    <div class="avai">
+      <img src="./images/TulisanKenshin.png" alt="" srcset="">
+      <p class="at1">Available on <br> Multiple Platforms</p>
+      <p class="at2">Since 22 June 2024, 12:00:00 (UTC+7)</p>
+      <p class="at2">Let's Travel The World for Your Journey!</p>
+  </div>
+  <!-- <div id="registSuccess">asdasdas</div> -->
+  <div class="toCenter">
+    <div class="registration">
+      <div class="registitle">Registration</div>
+      <form action="" id="form_regis" name="formRegis">
+        <div class="email">
+          <div class="formLabel">Email</div>
+          <input type="email" name="email" id="email" placeholder="Email..." required>
+          <div id="errorEmail" class="errormsg"></div>
+        </div>
+        <div class="username">
+          <div class="formLabel">Username</div>
+          <input type="text" name="username" id="username" placeholder="Username...">
+          <div id="errorUsername" class="errormsg"></div>
+        </div>
+        <div class="password">
+          <div class="formLabel">Password</div>
+          <input type="password" name="password" id="password" placeholder="Password...">
+          <div id="errorPassword" class="errormsg"></div>
+        </div>
+        <div class="confirmPassword">
+          <div class="formLabel">Confirm Password</div>
+          <input type="password" name="confirmPassword" id="confirmPassword" placeholder="Password...">
+          <div id="errorConfirmPassword" class="errormsg"></div>
+        </div>
+        <div class="tnc">
+          <input type="checkbox" name="confirmTnC" id="confirmTnC"><div class="formLabel">I Agree with the terms and conditions.</div>
+        </div>
+        <div id="errorConfirm" class="errormsg"></div>
+        <button type="button" value="Submit" onclick="validate()"><div id="registerText">Register</div></button>
+      </form>
+    </div>
+  </div>
+  
+  <footer>
+    <div class="sosmed">
+      <div class="youtube">
+        <img src="./images/youtube.png" alt="">
+        <div>: Kenshin Impact</div>
+      </div>
+      <div class="instagram">
+        <img src="./images/ig.png" alt="">
+        <div style="margin-left: 6px;">: @kenshinImpact</div>
+      </div>
+      <div class="facebook">
+        <img src="./images/facebook.png" alt="" class="fb">
+        <div style="margin-left: 10px;">: @KenshinImpact</div>
+      </div>
+    </div>
+    <div class="logo">
+      <img src="./images/LogoKenshin.png" alt="">
+      <div class="rightlogo">
+        <div class="copyright">Copyright &#169; 2020 Mihoyoman All Rights Reserved</div>
+        <div class="sosmed2">
+            <div class="youtube">
+              <img src="./images/youtube.png" alt="">
+              <div>: Kenshin Impact</div>
+            </div>
+            <div class="instagram">
+              <img src="./images/ig.png" alt="">
+              <div style="margin-left: 6px;">: @kenshinImpact</div>
+            </div>
+            <div class="facebook">
+              <img src="./images/facebook.png" alt="" class="fb">
+              <div style="margin-left: 10px;">: @KenshinImpact</div>
+            </div>
+          </div>
+        </div>
+    </div>
+  </footer>
+</body>
+</html>
